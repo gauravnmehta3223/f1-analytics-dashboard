@@ -3,7 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io/)
 [![FastF1](https://img.shields.io/badge/FastF1-3.4+-orange.svg)](https://github.com/theOehrly/Fast-F1)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A comprehensive **Formula 1 data analytics dashboard** built with Streamlit and FastF1 library. Analyze F1 sessions in real-time with interactive visualizations and advanced analytics.
 
@@ -46,8 +45,8 @@ A comprehensive **Formula 1 data analytics dashboard** built with Streamlit and 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/f1-data-analytics.git
-   cd f1-data-analytics
+   git clone https://github.com/Gmehta604/F1-Data-Analysis-Project-.git
+   cd F1-Data-Analysis-Project-
    ```
 
 2. **Install dependencies**
@@ -102,8 +101,7 @@ F1 Data Analysis/
     ├── 📄 __init__.py
     ├── 📄 data_fetcher.py   # FastF1 data retrieval
     ├── 📄 data_processor.py # Data cleaning & feature engineering
-    ├── 📄 visualizations.py # Plotly chart generation
-    └── 📄 utils.py          # Helper functions
+    └── 📄 visualizations.py # Plotly chart generation
 ```
 
 ## 🔧 Technical Details
@@ -186,8 +184,8 @@ pip install -r requirements.txt --upgrade
 - Sprint races only available from 2021
 
 **Slow Loading**
-- First-time loading may be slower
-- Subsequent loads will be faster
+- Each load downloads the session again, because local caching is turned off
+- Large race sessions can take a minute or more
 - Check internet connection speed
 
 ### Getting Help
@@ -206,10 +204,6 @@ We welcome contributions! Please feel free to submit a Pull Request. For major c
 3. Make your changes
 4. Add tests if applicable
 5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
