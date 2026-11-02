@@ -45,8 +45,8 @@ A comprehensive **Formula 1 data analytics dashboard** built with Streamlit and 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Gmehta604/F1-Data-Analysis-Project-.git
-   cd F1-Data-Analysis-Project-
+   git clone https://github.com/gauravnmehta3223/f1-analytics-dashboard.git
+   cd f1-analytics-dashboard
    ```
 
 2. **Install dependencies**
